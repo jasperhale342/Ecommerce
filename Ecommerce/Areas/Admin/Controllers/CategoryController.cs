@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Ecommerce.Utility;
 
 namespace Ecommerce.Areas.Admin.Controllers
-{
+{//
     [Area("Admin")]
     [Authorize(Roles =SD.Role_Admin)]
     public class CategoryController : Controller
